@@ -3,27 +3,27 @@
 class Pipehero < Formula
   desc "Webhook tunnel: expose localhost, inspect, replay and debug webhooks"
   homepage "https://pipehero.app"
-  version "0.1.10"
+  version "0.1.11"
 
   on_macos do
     on_arm do
-      url "https://dl.pipehero.app/v0.1.10/pipehero-aarch64-apple-darwin.tar.gz"
-      sha256 "153fde28d83af3c678e2c73c86c0160ce99ed03d926f541547ef5ee76d00b960"
+      url "https://dl.pipehero.app/v0.1.11/pipehero-aarch64-apple-darwin.tar.gz"
+      sha256 "18b18bd879171de3ea8ae993e9dab6c0c5f1ce3036905d3edcd7c8cdc757d337"
     end
     on_intel do
-      url "https://dl.pipehero.app/v0.1.10/pipehero-x86_64-apple-darwin.tar.gz"
-      sha256 "ea13ed0a3eb0b9e5f00b477b03595a7330194c78e5187bd34eec9f9b8ec4fc3d"
+      url "https://dl.pipehero.app/v0.1.11/pipehero-x86_64-apple-darwin.tar.gz"
+      sha256 "4dfa5cfd26ac2b4e317dc20da62739e133414f563518017bc0be2ffe0efc365f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://dl.pipehero.app/v0.1.10/pipehero-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "dfc7443360dd30f0f4a17e96fec647982cdc0fad1437da7fd3ac2fd9ff2e2d46"
+      url "https://dl.pipehero.app/v0.1.11/pipehero-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "44f87ae91bf7edc121c75bcb004c7a18e52e7c87ca3bbf5f4f1b91d90208bc7f"
     end
     on_intel do
-      url "https://dl.pipehero.app/v0.1.10/pipehero-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "564a857f7d9b11ba6c8875263909552b2219ec4c1cfb80318e2fbdbc2c861c78"
+      url "https://dl.pipehero.app/v0.1.11/pipehero-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "71ad2319e4942d57e5717a6725704f1ba60b14940f60bc253303a9a8c36b0481"
     end
   end
 
